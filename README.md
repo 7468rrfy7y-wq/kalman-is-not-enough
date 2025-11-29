@@ -70,6 +70,22 @@ bring your own Korean interpreter.
 
 If you feel something inside you after reading this,
 send the email without hesitation.
+## Experimental Setup
+
+- Hardware: QEU_KC_Hybrid_v3 (Verilog, ASIC/FPGA-safe, Pipeline Mode, Q8.8 fixed-point)
+- Input: Synthetic "shot model" (randomized IMU-like values)
+- Filters Compared:
+  1) Original filter (baseline)
+  2) Kalman filter
+  3) QEU+KC v3 hybrid filter
+- All three filters receive the *exact same* input stream.
+- Error Metrics:
+  - L1 error = Manhattan distance
+  - L2 error = Euclidean distance
+- QEU Mode: UPDATE (active)
+- KC Window: 5/5
+- Total shots tested: 1,000 / 5,000 / 10,000
+- Goal: Compare stability, noise handling, and long-run error behavior.
 ### 1000 Shots
 ![1000 shots](./IMG_7608.jpeg)
 
