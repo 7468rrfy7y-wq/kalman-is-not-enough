@@ -70,3 +70,11 @@ bring your own Korean interpreter.
 
 If you feel something inside you after reading this,
 send the email without hesitation.
+### 1000 Shots
+![1000 shots](./IMG_7608.jpeg)
+
+### 5000 Shots
+![5000 shots](./IMG_7609.jpeg)
+
+### 10000 Shots
+![10000 shots](./IMG_7610.jpeg)
